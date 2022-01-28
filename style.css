@@ -1,0 +1,315 @@
+body{
+
+background-color: #1b1f2d;
+
+}
+
+*{
+    margin:  0px !important;
+    padding:  0px !important;
+}
+
+.main {
+
+    /* border: 2px solid #e2e2e2; */
+    border-radius: 10px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+}
+.sub {
+
+    border: 2px solid #e2e2e2;
+    border-radius: 10px;
+    width: 300px ;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+
+.sub-paras span {
+
+color: #e7e7e8;
+text-align: center; 
+font-size: 1.3em;
+display: flex;
+justify-content: center;
+/* border: 2px solid red; */
+/* margin: 20px !important; */
+
+
+}
+
+.first_span{
+
+margin-top: 50% !important;
+font-size: 24px !important;
+
+}
+.second-span{
+    
+font-size: 14px !important;
+padding: 5px !important;
+
+}
+
+ #username {
+
+
+     border-radius: 10px !important;
+     margin-top: 19% !important;
+     width:240px;
+     height: 40px;
+     background-color: #333741;
+     border: none;
+     padding: 10px !important;
+     
+    } 
+    
+    #pass{
+        
+        border-radius: 10px !important;
+        margin-top: 10% !important;
+        width:240px;
+        height: 40px;
+        background-color: #333741;
+        border: none;
+        padding: 10px !important;
+        outline: none;
+        
+
+}
+
+.user{
+
+    color: #7c7f84;
+    margin-left: 18px !important;
+}
+.pass-icon{
+
+    color: #7c7f84;
+    margin-left: 18px !important;
+}
+
+
+input{
+
+    border: none;
+    outline: none;
+    background-color: #333741;
+    color: white;
+}
+
+#forg-pass-a{
+
+    
+    color:#5f5f68 !important;
+    text-decoration: none;
+    
+}
+
+.forget-pass{
+    
+    display: flex;
+    justify-content: end;
+    margin-top: 10px !important ;
+}
+
+.submit-btn{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important;
+    color: white;
+    background-color: #efb600;
+    border-radius: 10px;
+    width: 240px;
+    height: 40px;
+}
+
+.submit-btn input{
+
+    color: #1a1d29;
+    background-color: transparent;
+}
+
+
+.create-new-acc-text{
+
+    color: #efb600;
+    margin-top: 40px !important ;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.create-new-account{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important ;
+
+
+}
+
+
+/* hover on forget pass .... and create new account */
+
+.forget-pass > a:hover{
+
+color: #efb600;
+
+}
+
+.create-new-acc-text:hover{
+
+    color:#5f5f68 !important;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////// */
+/* page 2 Create New Account */
+
+.create-first-span{
+
+margin-top: 20% !important;
+
+}
+
+#username-create-Acc{
+
+    
+    border-radius: 10px !important;
+    margin-top: 12% !important;
+    width:240px;
+    height: 40px;
+    background-color: #333741;
+    border: none;
+    padding: 10px !important;
+}
+
+#pass-create-Acc{
+
+    border-radius: 10px !important;
+    margin-top: 8% !important;
+    width:240px;
+    height: 40px;
+    background-color: #333741;
+    border: none;
+    padding: 10px !important;
+}
+
+#mob-create-Acc{
+    border-radius: 10px !important;
+    margin-top: 8% !important;
+    width:240px;
+    height: 40px;
+    background-color: #333741;
+    border: none;
+    padding: 10px !important;
+
+
+}
+
+.phone-icon{
+
+    color: #7c7f84;
+    margin-left: 18px !important;
+}
+
+
+#con-pass-create-Acc{
+
+    border-radius: 10px !important;
+    margin-top: 8% !important;
+    width:240px;
+    height: 40px;
+    background-color: #333741;
+    border: none;
+    padding: 10px !important;
+
+
+}
+
+.date-of-icon{
+
+    color: #7c7f84;
+    margin-left: 34px !important;
+
+}
+
+
+
+#gender-create-Acc{
+    
+    border-radius: 10px !important;
+    margin-top: 8% !important;
+    width:240px;
+    height: 40px;
+    background-color: #333741;
+    border: none;
+    padding: 10px !important;
+    color: aliceblue;
+    
+}
+
+.gend-icon{
+
+    color: #7c7f84;
+    margin-left: 64px !important;
+
+}
+
+
+.male  input {
+
+padding-right: 10px !important;
+margin: 0px 10px 10px 0 !important;
+
+}
+
+.female  input {
+
+padding-right: 10px !important;
+margin: 0px 6px 4px 0px !important;
+
+}
+
+
+.login-account{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important ;
+
+}
+
+
+
+
+.login-acc-text{
+
+    color: #efb600;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+
+
+.login-acc-text:hover{
+
+    color:#5f5f68 !important;
+}
